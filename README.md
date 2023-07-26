@@ -1,14 +1,15 @@
 # chatbot_app_backend
 # API - https://chatbot-app-backend.vercel.app/api
+Post Request
 
-# Body-
+## Body-
 {
     "inputs": {
         "text": "what is 2+2 equals?"
     }
 }
 
-# Return -
+## Return -
 {
     "generated_text": " Hi, how are you? I just got back from walking my dog. Do you have any pets?",
     "conversation": {
@@ -22,9 +23,9 @@
 }
 
 
-or
+#  or
 
-# Body - Input - 
+## Body - Input - 
 {
     "inputs": {  
         "generated_responses": [
@@ -37,7 +38,7 @@ or
     }
 }
 
-# Returns - 
+## Returns - 
 {
     "generated_text": " What kind of dog do you have? I have a labrador retriever.",
     "conversation": {
